@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`OnLayout renders with new width and height 1`] = `
+<View
+  onLayout={[Function]}
+  style={undefined}
+>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    disabled={false}
+    ellipsizeMode="tail"
+  >
+    100
+     
+    100
+  </Text>
+</View>
+`;
+
+exports[`OnLayout renders with the initial values of 0 0 1`] = `
+<View
+  onLayout={[Function]}
+  style={undefined}
+>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    disabled={false}
+    ellipsizeMode="tail"
+  >
+    0
+     
+    0
+  </Text>
+</View>
+`;
