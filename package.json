@@ -1,7 +1,7 @@
 {
   "name": "react-native-on-layout",
   "version": "1.0.0",
-  "description": "A higher order component for React Native that allows easy access to a components rendered size",
+  "description": "A component for React Native that allows easy access to a view's rendered size",
   "main": "index.js",
   "scripts": {
     "test": "jest"
@@ -9,7 +9,6 @@
   "author": "Matthew Sessions <shichongrui@gmail.com> (http://www.matthewsessions.com/)",
   "license": "MIT",
   "dependencies": {
-    "hoist-non-react-statics": "^2.0.0",
     "react": "16.0.0-alpha.12",
     "react-native": "0.45.1",
     "babel-plugin-transform-class-properties": "^6.24.1",

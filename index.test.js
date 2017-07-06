@@ -1,22 +1,28 @@
 import React from 'react'
 import { Text } from 'react-native'
 import renderer from 'react-test-renderer'
-import onLayout from './index'
+import OnLayout from './index'
 
-const Comp = (props) => <Text>{ props.width } { props.height }</Text>
-const CompOnLayout = onLayout(Comp)
 
 describe('OnLayout', () => {
   it('renders with the initial values of 0 0', () => {
     let tree = renderer.create(
-      <CompOnLayout />
+      <OnLayout>
+        {({ width, height }) => (
+          <Text>{width} {height}</Text>
+        )}
+      </OnLayout>
     ).toJSON()
     expect(tree).toMatchSnapshot()
   })
 
   it('renders with new width and height', () => {
     let render = renderer.create(
-      <CompOnLayout />
+      <OnLayout>
+        {({ width, height }) => (
+          <Text>{width} {height}</Text>
+        )}
+      </OnLayout>
     )
 
     render.getInstance().onLayout({
