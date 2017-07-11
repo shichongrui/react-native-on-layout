@@ -1,6 +1,6 @@
 {
   "name": "react-native-on-layout",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "A component for React Native that allows easy access to a view's rendered size",
   "main": "index.js",
   "scripts": {
@@ -11,15 +11,14 @@
   "license": "MIT",
   "peerDependencies": {
     "react": "16.0.0-alpha.12",
-    "react-native": "0.46.1"
+    "react-native": "^0.46.1"
   },
   "devDependencies": {
     "babel-jest": "^20.0.3",
-    "babel-plugin-transform-class-properties": "^6.24.1",
-    "babel-plugin-transform-object-rest-spread": "^6.23.0",
-    "babel-preset-es2015": "^6.24.1",
-    "babel-preset-react": "^6.24.1",
+    "babel-preset-react-native": "^2.1.0",
     "jest": "^20.0.4",
+    "react": "16.0.0-alpha.12",
+    "react-native": "^0.46.1",
     "react-test-renderer": "16.0.0-alpha.12"
   },
   "jest": {
